@@ -1,0 +1,6 @@
+def main(field x, field y) -> bool {
+                      field diff = x - y;
+                      bool is_greater = diff > 0;
+                      assert(diff > 0);
+                      return is_greater;
+                    }
